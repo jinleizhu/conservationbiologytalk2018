@@ -1,0 +1,1 @@
+This is a talk given on 19.12.2018 in the master course "conservation biology around the globe" organised by Dr. Christine Sabine Sheppard in Institute of Landscape and Plant Ecology, University of Hohenheim. The word in this talk was originally conducted by Dr. Shuai Yu in Institute of Applied Ecology, Chinese Academy of Sciences.
