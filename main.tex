@@ -1,5 +1,7 @@
 \documentclass[10pt]{beamer}
+%\usepackage[dvipsnames]{xcolor}%text color
 \usetheme[progressbar=frametitle]{metropolis}
+\usepackage{graphicx}
 \usepackage{appendixnumberbeamer}
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
@@ -8,6 +10,9 @@
 \usepgfplotslibrary{dateplot}
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,shapes.misc}
+
 
 \title{Restoration of riparian vegetation in the Hunhe River basin, Liaoning, China}
 %\subtitle{I don't have a subtitle}
@@ -20,6 +25,25 @@ $^\ddag$Institute of Landscape and Plant Ecology, University of Hohenheim}
 \begin{document}
 
 \maketitle
+\graphicspath{{figures/}}
+
+\begin{frame}{Acknowledgements}
+\begin{columns}[T,onlytextwidth]
+	\column{0.5\textwidth}
+	\begin{figure}
+		\centering
+		\frame{\includegraphics[width=\textwidth]{yushuaidissertationcover.pdf}}
+	\end{figure}
+
+	\column{0.5\textwidth}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{yushuaionchangbaishan.jpg}
+	\end{figure}
+	
+\end{columns}
+
+\end{frame}
 
 \begin{frame}{Table of contents}
   \setbeamertemplate{section in toc}[sections numbered]
