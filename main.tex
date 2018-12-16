@@ -1,4 +1,4 @@
-\documentclass[10pt]{beamer}
+\documentclass[draft,10pt]{beamer}
 %\usepackage[dvipsnames]{xcolor}%text color
 \usetheme[progressbar=frametitle]{metropolis}
 \usepackage{graphicx}
@@ -9,51 +9,26 @@
 \usepackage{pgfplots}
 \usepgfplotslibrary{dateplot}
 \usepackage{xspace}
-\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+\usepackage{animate}
+%\usetheme{AnnArbor}
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows,shapes.misc}
 
-
 \title{Restoration of riparian vegetation in the Hunhe River basin, Liaoning, China}
-%\subtitle{I don't have a subtitle}
 \date{19.12.2018}
 \author{Shuai Yu$^\dag$\\ Jinlei Zhu$^\ddag$}
 \institute{$^\dag$Institute of Applied Ecology, Chinese Academy of Sciences\\
 $^\ddag$Institute of Landscape and Plant Ecology, University of Hohenheim}
-% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
 
 \begin{document}
-
-\maketitle
-\graphicspath{{figures/}}
-
-\begin{frame}{Acknowledgements}
-\begin{columns}[T,onlytextwidth]
-	\column{0.5\textwidth}
-	\begin{figure}
-		\centering
-		\frame{\includegraphics[width=\textwidth]{yushuaidissertationcover.pdf}}
-	\end{figure}
-
-	\column{0.5\textwidth}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{yushuaionchangbaishan.jpg}
-	\end{figure}
-	
-\end{columns}
-
-\end{frame}
-
-\begin{frame}{Table of contents}
-  \setbeamertemplate{section in toc}[sections numbered]
-  \tableofcontents[hideallsubsections]
-\end{frame}
-
-\input{introduction}
-\input{situationandproblems}
-\input{solutions}
-\input{application}
-\input{questionandthank}
-\input{appendix}
+	\graphicspath{{figures/}}
+	\maketitle
+	\input{acknowledgements}
+	\input{outline}
+	\input{introduction}
+	\input{situationandproblems}
+	\input{solutions}
+	\input{application}
+	\input{questionandthank}
+	\input{appendix}
 \end{document}
