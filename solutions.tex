@@ -1,74 +1,74 @@
 \section{Solutions}
 %Project workflow
-\begin{frame}[shrink]{Project workflow}
-	\begin{figure}	
-		\begin{tikzpicture}
-		\tikzstyle{block} = [rectangle, draw, fill=blue!20,minimum height=1cm,text badly centered]
-		\tikzstyle{line} = [draw,ultra thick, -latex']	
-		\uncover<1->{\node[block,text width=22em] (entrance){
-				\begin{tabular}{@{}c|c|c@{}}
-				\multicolumn{3}{c}{Channel near river mouth}\\
-				\midrule
-				N, P&Plant&Vegetation\\
-				accumulation&comprehensive&patterns\\
-				ability&evaluation&construction\\ \cline{1-2}
-				\multicolumn{2}{|c|}{Plant selection}&\\ \cline{1-2}
-				\end{tabular}
-			};}
-		
-		\uncover<2->{\node[block,text width=17em] at(7.9,0.24) (around){
-				\begin{tabular}{@{}p{5em}|p{10em}@{}}
-				\multicolumn{2}{c}{Area around reservoir}\\
-				\midrule
-				Wetland modification&Relationship between stand structure and conservation capacity\\
-				\end{tabular}
-			};
-		}	
-		
-		\uncover<3->{
-			\node[block,text width=42em] at(3.5,-3.9) (teches){
-				\begin{tabular}{@{}p{13em}|p{13em}|p{13em}@{}}		
-				Technology of restoring riparian vegetation	& Technology of reforming and conserving wetland & Technology of adjusting and improving conservation stand structure\\
-				\end{tabular}
-			};	
-		}
-		
-		\uncover<4->{
-			\node[block,text width=42em] at(3.5,-6.5) (techintegrated){
-				\begin{tabular}{@{}c p{39em}@{}}		
-				Technology of optimizing riparian vegetation composition and spatial structure\\
-				\end{tabular}
-			};
-		}	
-		
-		\uncover<5->{	
-			\node[block,text width=42em] at(3.5,-8.7) (demo){
-				\begin{tabular}{@{}c p{39em}@{}}		
-				Demonstration projects of restoration of riparian vegetation\\
-				\end{tabular}
-			};
-		}
-		
-		% Draw arrows
-		\uncover<3->{
-			\path [line] (entrance) -- (4.4,0) -- (4.4,-3);
-			\node[left] at (4.4,-2.3) {Water quality improvement};
-			\node[right] at (4.4,-2) {Vegetation restoration};
-			\path [line] (4.8,0) -- (4.4,0) -- (4.4,-3);	
-		}
-		
-		\uncover<4->{\path [line] (teches) -- (techintegrated);
-			\node[right] at (3.5,-5.4) {Technology integration};
-		}
-		
-		\uncover<5->{
-			\path [line] (techintegrated) -- (demo);
-			\node[right] at (3.5,-7.6) {Application};
-		}
-		
-		\end{tikzpicture}
-		\caption{Project workflow.}
-	\end{figure}
+\begin{frame}[shrink]{Project workflow}	
+			\begin{figure}
+			\begin{tikzpicture}
+			\tikzstyle{block} = [rectangle, draw, fill=blue!20,minimum height=1cm,text badly centered]
+			\tikzstyle{line} = [draw,ultra thick, -latex']	
+			\uncover<1->{\node[block,text width=22em] (entrance){
+					\begin{tabular}{@{}c|c|c@{}}
+					\multicolumn{3}{c}{Channel near river mouth}\\
+					\midrule
+					N, P&Plant&Vegetation\\
+					accumulation&comprehensive&patterns\\
+					ability&evaluation&construction\\ \cline{1-2}
+					\multicolumn{2}{|c|}{Plant selection}&\\ \cline{1-2}
+					\end{tabular}
+				};}
+			
+			\uncover<2->{\node[block,text width=17em] at(7.9,0.24) (around){
+					\begin{tabular}{@{}p{5em}|p{10em}@{}}
+					\multicolumn{2}{c}{Area around reservoir}\\
+					\midrule
+					Wetland modification&Relationship between stand structure and conservation capacity\\
+					\end{tabular}
+				};
+			}	
+			
+			\uncover<3->{
+				\node[block,text width=42em] at(3.5,-3.9) (teches){
+					\begin{tabular}{@{}p{13em}|p{13em}|p{13em}@{}}		
+					Technology of restoring riparian vegetation	& Technology of reforming and conserving wetland & Technology of adjusting and improving conservation stand structure\\
+					\end{tabular}
+				};	
+			}
+			
+			\uncover<4->{
+				\node[block,text width=42em] at(3.5,-6.5) (techintegrated){
+					\begin{tabular}{@{}c p{39em}@{}}		
+					Technology of optimizing riparian vegetation composition and spatial structure\\
+					\end{tabular}
+				};
+			}	
+			
+			\uncover<5->{	
+				\node[block,text width=42em] at(3.5,-8.7) (demo){
+					\begin{tabular}{@{}c p{39em}@{}}		
+					Demonstration projects of restoration of riparian vegetation\\
+					\end{tabular}
+				};
+			}
+			
+			% Draw arrows
+			\uncover<3->{
+				\path [line] (entrance) -- (4.4,0) -- (4.4,-3);
+				\node[left] at (4.4,-2.3) {Water quality improvement};
+				\node[right] at (4.4,-2) {Vegetation restoration};
+				\path [line] (4.8,0) -- (4.4,0) -- (4.4,-3);	
+			}
+			
+			\uncover<4->{\path [line] (teches) -- (techintegrated);
+				\node[right] at (3.5,-5.4) {Technology integration};
+			}
+			
+			\uncover<5->{
+				\path [line] (techintegrated) -- (demo);
+				\node[right] at (3.5,-7.6) {Application};
+			}
+			
+			\end{tikzpicture}
+			\caption{Project workflow.}
+		\end{figure}
 \end{frame}
 
 %N, P accumulation ability of the plants
@@ -132,7 +132,7 @@
 	\subfigure{\includegraphics[width=\textwidth,height=0.3\textheight]{TN.jpg}}
 	\subfigure{\includegraphics[width=\textwidth,height=0.3\textheight]{TP.jpg}}	
 \end{columns}
-\caption{Concentration and distribution of total nitrogen (TP) and total phosphorus (TP) in plants \cite{yu2014biomass}.}
+\caption{Concentration and distribution of total nitrogen (TN) and total phosphorus (TP) in plants \cite{yu2014biomass}.}
 %Syringa reticulate (Sr), Prunus padus (Pp), Robinia pseudoacacia (Rp), Pterocarya stenoptera (Ps), Juglans mandshuriea (Jm), Berberis dielsiana (Bd), Sambucus williamsii, Salix matsudana (Sm), Quercus mongolica (Qm), Rosa davurica (Rd), Euonymus alatus (Ea), Acer truncatum (At), Populus alba (Pa), Lespedeza bicolor (Lb), Ulmus pumila (Up) and Sorbaria sorbifolia (Ss). 
 
 \end{figure}
@@ -221,7 +221,7 @@ Total rank: CI = $W_1*CI1 + W_2*CI2 + W_3*CI3$ = 0.0349, RI = $W_1*RI1 + W_2*RI2
 
 
 %Effects of stand structure on biodiversity and water-holding capacity
-\begin{frame}{Effects of tending intensity on species diversity and water-holding capacity of WCS}
+\begin{frame}{Tending the water-conservation stands}
 \begin{table}
 	\caption{Effects of tending intensity on species diversity and water-holding capacity of water-conservation stands (WCS)}
 	\begin{tabular}{@{}l@{}|@{}cccccc@{}|@{}cc@{}}
@@ -342,9 +342,9 @@ Total rank: CI = $W_1*CI1 + W_2*CI2 + W_3*CI3$ = 0.0349, RI = $W_1*RI1 + W_2*RI2
 \begin{table}
   \begin{tabular}{p{12em}|p{8em}|p{9em}|p{4em}}
     \toprule
-    Ecological protection zone&Buffer zone&Shoal&Reservoir\\
+    \textbf{Ecological protection zone}&\textbf{Buffer zone}&\textbf{Shoal}&\textbf{Reservoir}\\
     Terrestrial&Water 40--90 cm& Water $<$ 40 cm&\\
-    Partial fenced area&Buffer ponds&Littoral zone&\\
+    Partially fenced area&Buffer ponds&Littoral zone&\\
     \midrule
     \emph{Ulmus pumila}&\textcolor{colherb}{\emph{Nelumbo nucifera}}&\textcolor{colherb}{\emph{Scirpus validus}}&\\
 
@@ -353,10 +353,10 @@ Total rank: CI = $W_1*CI1 + W_2*CI2 + W_3*CI3$ = 0.0349, RI = $W_1*RI1 + W_2*RI2
     \textcolor{colshrub}{\emph{Acer ginnala}}&\textcolor{colherb}{\emph{Lythrum salicaria}}&&\\
 
 &\textcolor{colherb}{\emph{Iris sanguinea}}&&\\    
-    \bottomrule
+%    \bottomrule
   \end{tabular}
 \end{table}
-\vspace{-0.3cm}
+\vspace{-0.1cm}
 \includegraphics[width=\textwidth]{wetland_veg_structure.png}
 
 \end{frame}

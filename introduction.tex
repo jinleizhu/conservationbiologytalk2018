@@ -7,6 +7,20 @@
 \end{frame}
 }
 
+{ % all template changes are local to this group.
+%	\setbeamertemplate{navigation symbols}{}
+	\setbeamertemplate{frame footer}{\textcolor{gray}{\tiny{\textcopyright Victor Moriyama/Greenpeace}}}
+	\begin{frame}{Deforestation in Par\'a, Brazil}
+		\begin{tikzpicture}[remember picture,overlay]
+		\node[at=(current page.center)] {
+			\includegraphics[keepaspectratio,
+			width=\paperwidth,
+			height=\paperheight]{brazil_1280p_1.jpg}
+		};
+		\end{tikzpicture}		
+	\end{frame}
+}
+
 %What is conservation biology?
 {\setbeamertemplate{frame footer}{\href{https://www.nature.com/subjects/conservation}{\textcolor{gray}{\tiny{*https://www.nature.com/subjects/conservation}}}}
 	\begin{frame}[t]{What is conservation biology?}
@@ -35,7 +49,7 @@ Conservation biology is the study of attempts to protect and preserve \alert{bio
 {\setbeamertemplate{frame footer}{\href{https://www.nature.com/scitable/knowledge/library/conservation-of-biodiversity-13235087}{\textcolor{gray}{\tiny{*https://www.nature.com/scitable/knowledge/library/conservation-of-biodiversity-13235087}}}}
 	\begin{frame}[t]{Why to preserve biodiversity?}
 	\begin{itemize}
-		\item Modern extinction rates are at \alert{100} to \alert{1000} times greater than background extinction rates calculated over the eras \cite{hambler2004extinction}.
+		\item Modern extinction rates are at \alert{100} to \alert{1000} times greater than background extinction rates calculated over the eras \cite{hambler2004extinction, Pimm1246752}.
 		\item Existing species go extinct at a rate \alert{1000} times that of species formation*.
 		\item The primary cause of today's loss of biodiversity is \alert{habitat alteration caused by human activities}.
 	\end{itemize}	
